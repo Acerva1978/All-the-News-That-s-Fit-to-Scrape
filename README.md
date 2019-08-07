@@ -4,7 +4,7 @@ In this assignment, you'll create a web app that lets users view and leave comme
 
 Technologies used: JavaScript, MongoDB
 
-npm packages used: express express-handlebars mongoose body-parser cheerio request
+npm packages used: express express-handlebars mongoose body-parser cheerio request axios
 
 # Home Page
 ![Screen shot](public/assets/images/Screen%20Shot%202019-08-06%20at%2011.14.38%20PM.png)
