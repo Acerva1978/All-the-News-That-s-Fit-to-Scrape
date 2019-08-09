@@ -7,13 +7,13 @@ Technologies used: JavaScript, MongoDB
 npm packages used: express express-handlebars mongoose body-parser cheerio request axios
 
 # Home Page
-![Screen shot](public/assets/images/Screen%20Shot%202019-08-06%20at%2011.14.38%20PM.png)
+![Screen shot](public/assets/images/homepage.png)
 
 # News Scraped
-![Screen shot](public/assets/images/Screen%20Shot%202019-08-06%20at%2011.07.11%20PM.png)
+![Screen shot](public/assets/images/newsscraped.png)
 
 # Saved Page
-![Screen shot](public/assets/images/Screen%20Shot%202019-08-06%20at%2011.08.15%20PM.png)
+![Screen shot](public/assets/images/savedpage.png)
 
 
 # Demo
