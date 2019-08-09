@@ -12,10 +12,7 @@ var MONGODB_URI = process.env.MONGODB_URI;
 
 var MONGODB_URI = MONGODB_URI || 'mongodb://localhost/newstaker';
 mongoose.Promise = global.Promise;
-mongoose.connect(
-  MONGODB_URI,
-  { useNewUrlParser: true }
-);
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
 //PORT
 var PORT = process.env.PORT || 3001;

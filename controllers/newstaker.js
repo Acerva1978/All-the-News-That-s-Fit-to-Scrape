@@ -15,20 +15,15 @@ router.get('/', function(req, res) {
 
 //1. GET 'SCRAPE-ROUTE' (SCRAPE NYTIMES SITE AND SAVE RESPONSE IN DB)
 router.get('/scrape', function(req, res) {
-  axios.get('https://www.nytimes.com/').then(function(response) {
+  axios.get('https://www.nytimes.com/section/sports').then(function(response) {
     var $ = cheerio.load(response.data);
-    // console.log(response.data)
+   
     $('article').each(function(i, element) {
       var result = {};
-      result.title = $(element)
-         .find('h2')
-        .text();
-        // console.log(children.children);
-      result.link =
-        'https://www.nytimes.com' +
-        $(element)
-          .find('a')
-          .attr('href');
+      result.title = $(element).find('h2').text();
+       result.link = 
+       'https://www.nytimes.com/section/sports' +
+        $(element).find('a').attr('href');
       result.description = $(element)
         .find('p')
         .text();
