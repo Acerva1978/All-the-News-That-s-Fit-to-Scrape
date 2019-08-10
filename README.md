@@ -17,4 +17,4 @@ npm packages used: express express-handlebars mongoose body-parser cheerio reque
 
 
 # Demo
-The demo of the burger eating application can be found <a href="https://newsscrapernyt.herokuapp.com/">Here on Heroku.</a>.
+The demo of the burger eating application can be found Here on<a href="https://newsscrapernyt.herokuapp.com/">Heroku.</a>.
